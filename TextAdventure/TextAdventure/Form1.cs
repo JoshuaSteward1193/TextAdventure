@@ -16,5 +16,25 @@ namespace TextAdventure
         {
             InitializeComponent();
         }
+
+        private void btnChoice1_Click(object sender, EventArgs e)
+        {
+            Navigation.navigate(lblDisplay, 1);
+        }
+
+        private void btnChoice2_Click(object sender, EventArgs e)
+        {
+            Navigation.navigate(lblDisplay, 2);
+        }
+
+        private void btnChoice3_Click(object sender, EventArgs e)
+        {
+            Navigation.navigate(lblDisplay, 3);
+        }
+
+        private void btnChoice4_Click(object sender, EventArgs e)
+        {
+            Navigation.navigate(lblDisplay, 4);
+        }
     }
 }
